@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<!--
+			1. 创建一个8行一列的表格
+			2. 第一部份: LOGO部分: 嵌套一个一行三列的表格
+			3. 第二部分: 导航栏部分 : 放置5个超链接
+			4. 第三部分: 轮播图 
+			5. 第四部分: 嵌套一个三行7列表格
+			6. 第五部分: 直接放一张图片
+			7. 第六部分: 抄第四部分的
+			8. 第七部分: 放置一张图片
+			9. 第八部分: 放一堆超链接
+		-->
+		<table width="100%">
+			<!--第一部份: LOGO部分: 嵌套一个一行三列的表格 -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td>
+								<img src="../img/logo2.png" />
+							</td>
+							<td>
+								<img src="../img/header.jpg" </td>
+								<td>
+									<a href="#">登录</a>
+									<a href="#">注册</a>
+									<a href="#">购物车</a>
+								</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
